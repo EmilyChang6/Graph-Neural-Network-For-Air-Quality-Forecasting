@@ -9,4 +9,4 @@
 * 訓練集 2937 筆，驗證集367 筆，測試集 368 筆資料
 ### (二) 模型架構
 本研究使用 GNN 的分支模型 GCN，結合 LSTM 之架構建立模型。利用 GCN 提取測站間的空間特徵，再使用 LSTM 演算法提取時間特徵，最後由全連接層來綜合時空特徵，產生 AQI 的預測結果。
-
+![image](https://github.com/EmilyChang6/Graph-Neural-Network-For-Air-Quality-Forecasting/blob/main/model.png)
